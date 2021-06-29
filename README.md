@@ -1,6 +1,6 @@
 # NLW Valoriza
 
-<img width='400' src='https://github.com/santospedro/nlw-valoriza/blob/main/src/img/nlwValorizaImg.png?raw=true'>
+<img width='400' src='https://github.com/santospedroh/nlw-valoriza/blob/main/src/img/nlwValorizaImg.png?raw=true'>
 
 ## Sobre o projeto 💻
 
