@@ -20,7 +20,6 @@
     "typescript": "^4.3.4"
   },
   "dependencies": {
-    "apidoc": "^0.28.1",
     "bcryptjs": "^2.4.3",
     "class-transformer": "^0.4.0",
     "cors": "^2.8.5",

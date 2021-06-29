@@ -1,9 +1,10 @@
 # NLW Valoriza
 
+<img width='400' src='https://github.com/santospedro/nlw-valoriza/blob/main/src/img/nlwValorizaImg.png?raw=true'>
+
 ## Sobre o projeto 💻
 
-O projeto NLW Valoriza foi desenvolvido durante a Next Level Week 6 pela trilha de back-end. 
-<https://nextlevelweek.com/>
+O projeto NLW Valoriza foi desenvolvido durante a [Next Level Week](https://nextlevelweek.com/)  6 pela trilha de back-end da [Rocketseat](https://rocketseat.com.br/)
 
 O Objetivo é desenvolver uma API onde podemos cadastrar elogios para outros usuários.
 
@@ -22,9 +23,9 @@ O Objetivo é desenvolver uma API onde podemos cadastrar elogios para outros usu
 
 - Cadastro de elogios
 
-    [ ] Não é permitido um usuário cadastrar um elogio para si<br>
-    [ ] Não é permitido cadastrar elogios para usuários inválidos<br>
-    [ ] O usuário precisa estar autenticado na aplicação<br>
+    [x] Não é permitido um usuário cadastrar um elogio para si<br>
+    [x] Não é permitido cadastrar elogios para usuários inválidos<br>
+    [x] O usuário precisa estar autenticado na aplicação<br>
 
 ## Tecnologias 👨‍💻
 
@@ -56,9 +57,28 @@ O Objetivo é desenvolver uma API onde podemos cadastrar elogios para outros usu
 5. Reflect Metadata: `yarn add reflect-metadata`
 6. MySQL: `yarn add mysql`
 7. UUID: `yarn add uuid`
+8. Class Transformer: `class-transformer`
+9. Cors: `cors`
+
+### Banco de dados (MySQL/MariaDB)
+
+- Para esta aplicação você vai precisa de uma instancia do MySQL ou MariaDB, as informações de configuração e conexão deve ser alteradas no arquivo `src/database/index.ts`
+- Para criar o schema do banco de dados você pode executar as migrations do projeto ou usar o mysqdump para importar diretamente.
+
+<b>Migrations</b>:
+    - `yarn typeorm migration:run`
+
+<b>Restore Dump</b>:
+    - `mysql -u <user> -p <schema> < src/database/querys/ddl.sql`
 
 ## Executando 🚀
 
+### Start node Server
+
+1. Para iniciar o servidor local execute o comando : $ `yarn dev`	
+2. Abra o navegador web e acesse: <http://localhost:3000>
+3. Pronto, aplicação executando!
+   
 ---
 
 Made with ♥ by Pedro Santos :wave: [Get in touch!](https://www.linkedin.com/in/santospedroh/)

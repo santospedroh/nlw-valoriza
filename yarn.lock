@@ -28,6 +28,11 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@types/apidoc@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.yarnpkg.com/@types/apidoc/-/apidoc-0.22.2.tgz#0a56a808cc0a34714b91bf05c8e39c3c978f99e4"
+  integrity sha512-Xw0PAYTdnfUdcvZKGFh+z7Y9flsdLpvfX/q8PIbaR/qoL4VQP4L/YxPcL80tzsmWMntkONdeSSz5p08SIoCBmw==
+
 "@types/bcryptjs@^2.4.2":
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/@types/bcryptjs/-/bcryptjs-2.4.2.tgz#e3530eac9dd136bfdfb0e43df2c4c5ce1f77dfae"
@@ -199,7 +204,7 @@ apidoc-core@^0.15.0:
     lodash "^4.17.20"
     semver "~7.3.2"
 
-apidoc@^0.28.1:
+apidoc@*, apidoc@^0.28.1:
   version "0.28.1"
   resolved "https://registry.yarnpkg.com/apidoc/-/apidoc-0.28.1.tgz#5fcf2027f7fca13817332be9eaa04c2e2bd765a4"
   integrity sha512-vJbRtNnxWqUUfbY4NJwq9vRB8+Fh43nccckhG9nC4nQBxrMDaBYHhwMbls3OZ9Nv36jWN4KexpLrZ5Ivph8GYg==
@@ -952,6 +957,13 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
+
+grunt-apidoc@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/grunt-apidoc/-/grunt-apidoc-0.11.0.tgz#98c1945ad7e8aba1f1d5f1551eab3d42b010eacd"
+  integrity sha1-mMGUWtfoq6Hx1fFVHqs9QrAQ6s0=
+  dependencies:
+    apidoc "*"
 
 handlebars@^4.7.7:
   version "4.7.7"
